@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CDC1BBAF0932A72795AEC7A /* Pods_RxSearchBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AD9B80F2D49260DD6FC70B /* Pods_RxSearchBar.framework */; };
 		3BAFC37123742B1B00A1C138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAFC37023742B1B00A1C138 /* AppDelegate.swift */; };
 		3BAFC37323742B1B00A1C138 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAFC37223742B1B00A1C138 /* SceneDelegate.swift */; };
 		3BAFC37523742B1B00A1C138 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAFC37423742B1B00A1C138 /* ViewController.swift */; };
@@ -15,7 +16,6 @@
 		3BAFC37D23742B1E00A1C138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAFC37B23742B1E00A1C138 /* LaunchScreen.storyboard */; };
 		3BAFC38823742B1E00A1C138 /* RxSwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAFC38723742B1E00A1C138 /* RxSwiftExampleTests.swift */; };
 		3BAFC39323742B1E00A1C138 /* RxSwiftExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAFC39223742B1E00A1C138 /* RxSwiftExampleUITests.swift */; };
-		E7D069AD5D05426EDAE88EF8 /* Pods_RxSwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825BA392F0495C98C1D6E6DC /* Pods_RxSwiftExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33AD9B80F2D49260DD6FC70B /* Pods_RxSearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7B4A5F4D794F5958F2D64D /* Pods-RxSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftExample.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftExample/Pods-RxSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
-		3BAFC36D23742B1B00A1C138 /* RxSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAFC36D23742B1B00A1C138 /* RxSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAFC37023742B1B00A1C138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BAFC37223742B1B00A1C138 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3BAFC37423742B1B00A1C138 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,13 +46,14 @@
 		3BAFC37923742B1E00A1C138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BAFC37C23742B1E00A1C138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BAFC37E23742B1E00A1C138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BAFC38323742B1E00A1C138 /* RxSwiftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAFC38323742B1E00A1C138 /* RxSearchBarExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSearchBarExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAFC38723742B1E00A1C138 /* RxSwiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftExampleTests.swift; sourceTree = "<group>"; };
 		3BAFC38923742B1E00A1C138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BAFC38E23742B1E00A1C138 /* RxSwiftExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAFC38E23742B1E00A1C138 /* RxSearchBarExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSearchBarExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAFC39223742B1E00A1C138 /* RxSwiftExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftExampleUITests.swift; sourceTree = "<group>"; };
 		3BAFC39423742B1E00A1C138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		825BA392F0495C98C1D6E6DC /* Pods_RxSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98A48B5FC750E4F6A03AD25 /* Pods-RxSearchBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSearchBar.debug.xcconfig"; path = "Target Support Files/Pods-RxSearchBar/Pods-RxSearchBar.debug.xcconfig"; sourceTree = "<group>"; };
+		D7C22CEB848F26579EEC322A /* Pods-RxSearchBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSearchBar.release.xcconfig"; path = "Target Support Files/Pods-RxSearchBar/Pods-RxSearchBar.release.xcconfig"; sourceTree = "<group>"; };
 		DF9150FFEA131B46CD090E12 /* Pods-RxSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftExample.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftExample/Pods-RxSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7D069AD5D05426EDAE88EF8 /* Pods_RxSwiftExample.framework in Frameworks */,
+				2CDC1BBAF0932A72795AEC7A /* Pods_RxSearchBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +86,7 @@
 		3AE2B5ADA3C91E71D548FCB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				825BA392F0495C98C1D6E6DC /* Pods_RxSwiftExample.framework */,
+				33AD9B80F2D49260DD6FC70B /* Pods_RxSearchBar.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,9 +106,9 @@
 		3BAFC36E23742B1B00A1C138 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BAFC36D23742B1B00A1C138 /* RxSwiftExample.app */,
-				3BAFC38323742B1E00A1C138 /* RxSwiftExampleTests.xctest */,
-				3BAFC38E23742B1E00A1C138 /* RxSwiftExampleUITests.xctest */,
+				3BAFC36D23742B1B00A1C138 /* RxSearchBar.app */,
+				3BAFC38323742B1E00A1C138 /* RxSearchBarExampleTests.xctest */,
+				3BAFC38E23742B1E00A1C138 /* RxSearchBarExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,17 +150,18 @@
 			children = (
 				3B7B4A5F4D794F5958F2D64D /* Pods-RxSwiftExample.debug.xcconfig */,
 				DF9150FFEA131B46CD090E12 /* Pods-RxSwiftExample.release.xcconfig */,
+				C98A48B5FC750E4F6A03AD25 /* Pods-RxSearchBar.debug.xcconfig */,
+				D7C22CEB848F26579EEC322A /* Pods-RxSearchBar.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BAFC36C23742B1B00A1C138 /* RxSwiftExample */ = {
+		3BAFC36C23742B1B00A1C138 /* RxSearchBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BAFC39723742B1E00A1C138 /* Build configuration list for PBXNativeTarget "RxSwiftExample" */;
+			buildConfigurationList = 3BAFC39723742B1E00A1C138 /* Build configuration list for PBXNativeTarget "RxSearchBar" */;
 			buildPhases = (
 				B5E9959E71A471F632BC8132 /* [CP] Check Pods Manifest.lock */,
 				3BAFC36923742B1B00A1C138 /* Sources */,
@@ -170,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = RxSwiftExample;
+			name = RxSearchBar;
 			productName = RxSwiftExample;
-			productReference = 3BAFC36D23742B1B00A1C138 /* RxSwiftExample.app */;
+			productReference = 3BAFC36D23742B1B00A1C138 /* RxSearchBar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3BAFC38223742B1E00A1C138 /* RxSwiftExampleTests */ = {
+		3BAFC38223742B1E00A1C138 /* RxSearchBarExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BAFC39A23742B1E00A1C138 /* Build configuration list for PBXNativeTarget "RxSwiftExampleTests" */;
+			buildConfigurationList = 3BAFC39A23742B1E00A1C138 /* Build configuration list for PBXNativeTarget "RxSearchBarExampleTests" */;
 			buildPhases = (
 				3BAFC37F23742B1E00A1C138 /* Sources */,
 				3BAFC38023742B1E00A1C138 /* Frameworks */,
@@ -188,14 +191,14 @@
 			dependencies = (
 				3BAFC38523742B1E00A1C138 /* PBXTargetDependency */,
 			);
-			name = RxSwiftExampleTests;
+			name = RxSearchBarExampleTests;
 			productName = RxSwiftExampleTests;
-			productReference = 3BAFC38323742B1E00A1C138 /* RxSwiftExampleTests.xctest */;
+			productReference = 3BAFC38323742B1E00A1C138 /* RxSearchBarExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3BAFC38D23742B1E00A1C138 /* RxSwiftExampleUITests */ = {
+		3BAFC38D23742B1E00A1C138 /* RxSearchBarExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BAFC39D23742B1E00A1C138 /* Build configuration list for PBXNativeTarget "RxSwiftExampleUITests" */;
+			buildConfigurationList = 3BAFC39D23742B1E00A1C138 /* Build configuration list for PBXNativeTarget "RxSearchBarExampleUITests" */;
 			buildPhases = (
 				3BAFC38A23742B1E00A1C138 /* Sources */,
 				3BAFC38B23742B1E00A1C138 /* Frameworks */,
@@ -206,9 +209,9 @@
 			dependencies = (
 				3BAFC39023742B1E00A1C138 /* PBXTargetDependency */,
 			);
-			name = RxSwiftExampleUITests;
+			name = RxSearchBarExampleUITests;
 			productName = RxSwiftExampleUITests;
-			productReference = 3BAFC38E23742B1E00A1C138 /* RxSwiftExampleUITests.xctest */;
+			productReference = 3BAFC38E23742B1E00A1C138 /* RxSearchBarExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -234,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3BAFC36823742B1B00A1C138 /* Build configuration list for PBXProject "RxSwiftExample" */;
+			buildConfigurationList = 3BAFC36823742B1B00A1C138 /* Build configuration list for PBXProject "RxSearchBarExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -247,9 +250,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BAFC36C23742B1B00A1C138 /* RxSwiftExample */,
-				3BAFC38223742B1E00A1C138 /* RxSwiftExampleTests */,
-				3BAFC38D23742B1E00A1C138 /* RxSwiftExampleUITests */,
+				3BAFC36C23742B1B00A1C138 /* RxSearchBar */,
+				3BAFC38223742B1E00A1C138 /* RxSearchBarExampleTests */,
+				3BAFC38D23742B1E00A1C138 /* RxSearchBarExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,15 +291,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftExample/Pods-RxSwiftExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RxSearchBar/Pods-RxSearchBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftExample/Pods-RxSwiftExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RxSearchBar/Pods-RxSearchBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftExample/Pods-RxSwiftExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSearchBar/Pods-RxSearchBar-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B5E9959E71A471F632BC8132 /* [CP] Check Pods Manifest.lock */ = {
@@ -314,7 +317,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RxSwiftExample-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RxSearchBar-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -355,12 +358,12 @@
 /* Begin PBXTargetDependency section */
 		3BAFC38523742B1E00A1C138 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3BAFC36C23742B1B00A1C138 /* RxSwiftExample */;
+			target = 3BAFC36C23742B1B00A1C138 /* RxSearchBar */;
 			targetProxy = 3BAFC38423742B1E00A1C138 /* PBXContainerItemProxy */;
 		};
 		3BAFC39023742B1E00A1C138 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3BAFC36C23742B1B00A1C138 /* RxSwiftExample */;
+			target = 3BAFC36C23742B1B00A1C138 /* RxSearchBar */;
 			targetProxy = 3BAFC38F23742B1E00A1C138 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -501,7 +504,7 @@
 		};
 		3BAFC39823742B1E00A1C138 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B7B4A5F4D794F5958F2D64D /* Pods-RxSwiftExample.debug.xcconfig */;
+			baseConfigurationReference = C98A48B5FC750E4F6A03AD25 /* Pods-RxSearchBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -511,7 +514,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yasser.RxSwiftExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RxSearchBar;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -519,7 +522,7 @@
 		};
 		3BAFC39923742B1E00A1C138 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF9150FFEA131B46CD090E12 /* Pods-RxSwiftExample.release.xcconfig */;
+			baseConfigurationReference = D7C22CEB848F26579EEC322A /* Pods-RxSearchBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,7 +532,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yasser.RxSwiftExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RxSearchBar;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -552,7 +555,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxSwiftExample.app/RxSwiftExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxSearchBarExample.app/RxSearchBarExample";
 			};
 			name = Debug;
 		};
@@ -573,7 +576,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxSwiftExample.app/RxSwiftExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxSearchBarExample.app/RxSearchBarExample";
 			};
 			name = Release;
 		};
@@ -618,7 +621,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BAFC36823742B1B00A1C138 /* Build configuration list for PBXProject "RxSwiftExample" */ = {
+		3BAFC36823742B1B00A1C138 /* Build configuration list for PBXProject "RxSearchBarExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BAFC39523742B1E00A1C138 /* Debug */,
@@ -627,7 +630,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BAFC39723742B1E00A1C138 /* Build configuration list for PBXNativeTarget "RxSwiftExample" */ = {
+		3BAFC39723742B1E00A1C138 /* Build configuration list for PBXNativeTarget "RxSearchBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BAFC39823742B1E00A1C138 /* Debug */,
@@ -636,7 +639,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BAFC39A23742B1E00A1C138 /* Build configuration list for PBXNativeTarget "RxSwiftExampleTests" */ = {
+		3BAFC39A23742B1E00A1C138 /* Build configuration list for PBXNativeTarget "RxSearchBarExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BAFC39B23742B1E00A1C138 /* Debug */,
@@ -645,7 +648,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BAFC39D23742B1E00A1C138 /* Build configuration list for PBXNativeTarget "RxSwiftExampleUITests" */ = {
+		3BAFC39D23742B1E00A1C138 /* Build configuration list for PBXNativeTarget "RxSearchBarExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BAFC39E23742B1E00A1C138 /* Debug */,

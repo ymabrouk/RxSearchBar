@@ -1,0 +1,6 @@
+framework module Pods_RxSearchBar {
+  umbrella header "Pods-RxSearchBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
